@@ -1,0 +1,15 @@
+
+body{
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-plano-estilo-comic_23-2148882944.jpg?w=740&t=st=1673600726~exp=1673601326~hmac=f908622cabc0449cfd49ecdd221e56c7f776035cdaa462c30a1da6a8adbee925")!important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: #140425ea
+}

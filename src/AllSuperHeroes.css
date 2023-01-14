@@ -1,0 +1,91 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+.containBtn{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn{
+        font-size: 18px;
+        margin-bottom: 10px;
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        z-index: 0;
+        background: #fff;
+        overflow: hidden;
+        border: 2px solid #1b0e41;
+        color: #2f1c68;
+      }
+      .btn:hover {
+        color: #fff;
+      }
+      .btn:hover:after {
+        width: 100%;
+      }
+      .btn:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        transition: all 0.3s ease;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background: #1b0e41;
+      }
+
+      .btn2{
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-left: 41%;
+        align-items: center;
+          min-width: 130px;
+          height: 40px;
+          color: #fff;
+          padding: 5px 10px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          position: relative;
+          display: inline-block;
+          outline: none;
+          border-radius: 5px;
+          border: 2px solid #2c0b8e;
+          background: #140425ea;
+        }
+        .btn2:hover {
+          background: #fff;
+          color: #140425ea
+        }
+
+        .eachCard{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          margin-top: 5px;
+          margin-left: 40%;
+          border: 15px;
+        }
+
+        .titleEC{
+          display: flex;
+          font-size: 20px;
+          margin-left: 8%;
+          color: #140425ea
+        }
